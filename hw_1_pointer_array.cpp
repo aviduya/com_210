@@ -9,7 +9,7 @@ int ** getRandomInt() {
     for(int i = 0; i < SIZE; i++) {
         arr[i] = new int(rand() % 100);
     }
-    return arr;
+
 }
 
 void displayInt(int ** pp) {
