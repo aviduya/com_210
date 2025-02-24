@@ -1,4 +1,3 @@
-#include <__config>
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -42,7 +41,7 @@ int main() {
 
     Node* head = &L;
 
-    for (;head != nullptr ;) {
+    for (int i = 0; i < STEPS; i++) {
         cout << head->data << " ";
 
         int choice = rand() % 3;
