@@ -7,7 +7,7 @@ int linearSearch(int arr[], int size, int target) {
     for(int i = 0; i < size; i++) {
         comparison_ammount++;
         if (arr[i] == target) {
-            return comparison_ammount;
+            break;
         }
     }
     return comparison_ammount;
